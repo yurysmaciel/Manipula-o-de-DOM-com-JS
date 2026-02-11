@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#paragrafo1 {
+    color: red;
+}
+
+.btn-alternativo {
+    color: white;
+    background-color: black;
+    border: solid 2px green;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
