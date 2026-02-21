@@ -1,18 +1,48 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 #paragrafo1 {
-    color: red;
+  color: red;
 }
 
 .btn-alternativo {
-    color: white;
-    background-color: black;
-    border: solid 2px green;
-    border-radius: 10px;
-    padding: 15px;
-    cursor: pointer;
+  color: white;
+  background-color: black;
+  border: solid 2px green;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#linha {
+  background-color: red;
+}
+
+.inputCalc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputCalc input {
+  width: 30%;
+  height: 40%;
+  padding: 0.5rem;
+  margin: 3px;
+  border-radius: 3px;
+  border: solid 1px black;
+}
+
+#button-Input {
+  padding: 4px;
+  width: 10%;
+  color: black;
+  background-color: rgb(4, 150, 4);
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
 }

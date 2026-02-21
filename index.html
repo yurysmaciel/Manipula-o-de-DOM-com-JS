@@ -1,26 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 id="titulo">Aprendendo a manipulação do DOM</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 id="titulo">Aprendendo a manipulação do DOM</h1>
 
-    <p id="paragrafo1" class="text"></p>
+      <p id="paragrafo1" class="text"></p>
 
-    <button id="btn">Clique aqui!!</button>
-    <button id="btn2">Novo botão</button>
-    <p>"separar pagina"</p>
-    <button id="botoes1">1</button>
-    <button id="botoes2">2</button>
-    <button id="botoes3">3</button>
-    <button id="botoesMais">+</button>
-
-    <h2 id="resultado"></h2>
-
+      <button id="btn">Clique aqui!!</button>
+      <button id="btn2">Novo botão</button>
+      <p>"separar pagina"</p>
+      <button id="botoes1">1</button>
+      <button id="botoes2">2</button>
+      <button id="botoes3">3</button>
+      <button id="botoesMais">+</button>
+      <h2 id="resultado"></h2>
+      <p  id="linha">---</p>
+    </div>
+    <div class="inputCalc">
+      <input
+        type="number"
+        name=""
+        id="inputNumero1"
+        placeholder="Digite o primeiro numero"
+      />
+      <input
+        type="number"
+        name=""
+        id="inputNumero2"
+        placeholder="Digite ooutro numero"
+      />
+      <input list="operadores" id="operador" placeholder="Selecione o multiplicador"></input>
+      <datalist id="operadores">
+        <option value="soma" id="soma"></option>
+        <option value="diminuição" id="menos"></option>
+        <option value="multiplicação" id="multi"></option>
+        <option value="divisão" id="divisao"></option>
+      </datalist>
+      <button id="button-Input">Resultado</button>
+      <h2 id="resultadoInput"></h2>
+    </div>
+    <p id="linha">---</p>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
